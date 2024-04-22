@@ -23,9 +23,8 @@ import {
   jobit,
   tripguide,
   threejs,
-
 } from "../assets";
-import spotify from '../assets/spotify.png'
+import spotify from "../assets/spotify.png";
 import cpp from "../assets/tech/cpp.png";
 import java from "../assets/tech/java.png";
 import octanet from "../assets/company/octanet.jpeg";
@@ -35,7 +34,8 @@ import studyadda from "../assets/StudyAdda.png";
 import edufree from "../assets/EduFree.png";
 import blog from "../assets/Blog.png";
 import swift from "../assets/tech/swiftui.jpeg";
-import diceroll from "../assets/DiceRoll.png";
+import devoverflow from "../assets/devoverflow.png";
+import pixelpro from "../assets/pixelpro.png";
 export const navLinks = [
   {
     id: "about",
@@ -240,7 +240,7 @@ const projects = [
   {
     name: "Spotify App using React Native",
     description:
-      "A spotify clone app using react native where user can login using spotify account and also they can fetch their liked songs and listen to them for 30 secs",
+      "A spotify clone app using react native where user can login using spotify account and also they can fetch their liked songs and listen to them for 30 secs. Both for ios and android",
     tags: [
       {
         name: "react-native",
@@ -256,12 +256,12 @@ const projects = [
       "https://github.com/Manpreet3033/Spotify-React-Native-Project",
   },
   {
-    name: "EDUFREE LMS System",
+    name: "DevOverFlow",
     description:
-      "Another LMS Project i am currently working on with. Stay Tuned for Updates",
+      "So DevOverFlow is a coder's community like StackOverflow but with some more features like finding job, asking and answering to questions and also earn medals like gold,silver and bronze",
     tags: [
       {
-        name: "react",
+        name: "NextJS",
         color: "blue-text-gradient",
       },
       {
@@ -277,16 +277,49 @@ const projects = [
         color: "pink-text-gradient",
       },
       {
-        name: "redux",
+        name: "TypeScript",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: devoverflow,
+    source_code_link: "https://github.com/Manpreet3033/DevOverflow",
+  },
+  {
+    name: "Pixel_Pro",
+    description:
+      "Pixel_Pro is a SaaS website in which users can perform various action on their pictures like object removal, background removal, color change and many more. also integrated Stripe Payment for purchasing credits for performing actions.",
+    tags: [
+      {
+        name: "NextJS",
         color: "blue-text-gradient",
       },
       {
-        name: "framer-motion",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "express",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Stripe Payments",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Clerk Authentication",
+        color: "blue-text-gradient",
+      },
     ],
-    image: edufree,
-    source_code_link: "https://github.com/Manpreet3033/Personal-LMS-Project",
+    image: pixelpro,
+    source_code_link: "https://github.com/Manpreet3033/Pixel-Pro",
   },
 ];
 
